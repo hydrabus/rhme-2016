@@ -2,7 +2,7 @@
 
 ## Table of contents
  * [Reverse]
-   * [Jumpy](Jumpy.md)
+   * [Jumpy WIP](Jumpy.md)
    * [The Impostor](TheImpostor.md)
    * [FridgeJIT](FridgeJIT.md)
  * [Exploit]
@@ -15,8 +15,8 @@
    * [Secure Filesystem](SecureFilesystem.md)
    * [Secure Filesystem v1.92r1](SecureFilesystemV1_92r1.md)
  * [Fault Injection]
-   * [Fiesta](Fiesta.md)
-   * [Finetuning](Finetuning.md)
+   * [Fiesta WIP](Fiesta.md)
+   * [Finetuning WIP](Finetuning.md)
    * [Fiasco](Fiasco.md)
    * [Revenge](Revenge.md)
  * [Side Channel Analysis]
@@ -24,8 +24,8 @@
    * [Still Not Scary](StillNotScary.md)
    * [Escalate](Escalate.md)
  * [Other]
-   * [Twist Word](Twistword.md)
+   * [Twist Word WIP](Twistword.md)
    * [Emergency Transmitter](EmergencyTransmitter.md)
-   * [Secret Sauce](SecretSauce.md)
-   * [Whack The mole](WhackTheMole.md)
+   * [Secret Sauce WIP](SecretSauce.md)
+   * [Whack The mole WIP](WhackTheMole.md)
    * [Hide & Seek](HideAndSeek.md)
