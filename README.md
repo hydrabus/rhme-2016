@@ -18,7 +18,7 @@
    * [Fiesta WIP](Fiesta.md)
    * [Finetuning WIP](Finetuning.md)
    * [Fiasco](Fiasco.md)
-   * [Revenge](Revenge.md)
+   * [Revenge WIP](Revenge.md)
  * [Side Channel Analysis]
    * [Piece of Scake](PieceofSCAke.md)
    * [Still Not Scary](StillNotScary.md)
