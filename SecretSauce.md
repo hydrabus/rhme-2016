@@ -6,7 +6,11 @@
 This challenge ask for a password so the idea was it is probably possible to recover it using a timing attack with the help of HydraBus which have ultra accurate timer (1/168Mhz resolution)
 
 So the challenge was to write a dedicated hard realtime firmware in order to measure time of the answer after sending one character of the password + CR
-It was required to do multiple test in order to characterize the jitter of the rhme2 and it was less than 20 microsecond,so if the time after a character exceed 20microsecond we validate this character as valid and continue with next character and so on until the recovery of the full password.
+
+It was required to characterize the jitter of the rhme2 in order to be sure the character is valid or not valid and after multiple tries tje jitter was less than 20 microsecond.
+
+So if the time after a character exceed 20 microsecond we save this character as valid and continue with next character and so on until the recovery of the full password.
+
 It is like magic and the password appear character after character ...
 
 ### Step1 Timing Attack on the Password
