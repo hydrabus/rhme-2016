@@ -7,7 +7,7 @@ This challenge ask for a password so the idea was it is probably possible to rec
 
 So the challenge was to write a dedicated hard realtime firmware in order to measure time of the answer after sending one character of the password + CR
 
-It was required to characterize the jitter of the rhme2 in order to be sure the character is valid or not valid and after multiple tries tje jitter was less than 20 microsecond.
+It was required to characterize the jitter of the rhme2 in order to be sure the character is valid or not valid and after multiple tries the jitter was characterized to be less than 20 microsecond.
 
 So if the time after a character exceed 20 microsecond we save this character as valid and continue with next character and so on until the recovery of the full password.
 
