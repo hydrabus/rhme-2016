@@ -26,6 +26,6 @@
  * [Other]
    * [Twist Word WIP](Twistword.md)
    * [Emergency Transmitter](EmergencyTransmitter.md)
-   * [Secret Sauce WIP](SecretSauce.md)
+   * [Secret Sauce](SecretSauce.md)
    * [Whack The mole WIP](WhackTheMole.md)
    * [Hide & Seek](HideAndSeek.md)
