@@ -3,21 +3,23 @@
 <a name="whackthemole"></a>
 ## Whack The Mole (Other - 200 pts)
 
-This challenge was funny as the purpose was to set the right rhme2 digital pin(from d2 to d13) to "1" corresponding to number of flash detected on the LED(so counting number of rising edge on the LED pin) in order to hit the mole.
+This challenge was funny as the purpose was to set the right rhme2 digital pin(from D2 to D13) to "1" corresponding to number of flash detected on the LED(so counting number of rising edge on the LED pin/D13) in order to hit the mole.
 
 So the challenge was to find how many flash corresponds to which pin.
 After multiple test with a beta firmware I have characterized the limit like what is the maximum number of flash... so I have wrote the following rules.
 
 The rules:
+* Pin is checked(valid for a pulse count) if COM returns `You missed it. Try again by pressing <Enter>.` in less than 100ms
+ * In that case it was required to send `\r` to try again
+* Pin is ignored(invalid) if COM returns `You missed it. Try again by pressing <Enter>.` in more than 6s
+ * In that case it was required to send `\r` to try again
+* Pin is ON for the right Dx pulse count COM returns `Great job. You whacked it. Only XX more to go.`
+* Pin from D2 to D13 (A0 to A7 not used) are used as Input on rhme2 board
 * When first mole is hit/found we obtain `Great job. You whacked it. Only 50 more to go.`
  * So it was required to hint 50 moles successively as else it restart
  * After each reset the rhme2 pin corresponding to number of LED flash was set randomly
  * When the mole is found the rhme2 continue automatically and blink the LED to hit/find the 2nd Mole and so on
-* Pin is checked(valid for a pulse count) if COM returns "You missed it. Try again by pressing <Enter>." in less than 100ms
-* Pin is ignored(invalid) if COM returns "You missed it. Try again by pressing <Enter>." in more than 6s
-* Pin is ON for the right D13 pulse count COM returns "Great job. You whacked it. Only XX more to go."
-* Pin from D2 to D13 (A0 to A7 not used) are used
-
+ 
 The main challenge was to build a LED rising edge counter which returns as fast as possible number of flash when detecting no change(timeout) which means it was the last flash.
  * So the timeout was carefully characterized(after lot of logic analyzer capture on different steps as the firmware was accelerating/slowing a bit depending on how many mole was found) to 50ms + 1ms rhme2 Jitter.
  * If this timeout is too long it simplify returns "You missed it ..." randomly for example after 10 mole found/hit ...
