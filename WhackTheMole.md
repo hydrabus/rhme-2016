@@ -31,6 +31,8 @@ The HydraBus firmware works in two steps:
 * 2nd Step Solve the challenge (wtm_solve)
   * Solve by using each WTM PDx Input/Pin corresponding to nbperiod until 50 steps are solved
 
+![Logic Analyzer Whack The Mole Solved](WhacTheMole_Solve_LA.png)
+
 HydraBus UART debug output:
 ```
 > wtm_run start
