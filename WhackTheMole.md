@@ -25,10 +25,10 @@ The main challenge was to build a LED rising edge counter which returns as fast 
  * If this timeout is too long it simplify returns "You missed it ..." randomly for example after 10 mole found/hit ...
 
 The HydraBus firmware works in two steps:
-* 1st Step Discovery (wtm_discovery)
+* 1st Step Discovery
   * Check each WTM PDx Input corresponding to nb pulse(nb rising edge) in order to discover all the combinations(nb pulse) corresponding to rhme2 Pin(from D2 to D13) until we find the 6 unique combinations (nb pulse corresponds to Dx) as after multiple check it was detected that the maximum number of pulse is 6 and of course we are using the rules described previously
   
-* 2nd Step Solve the challenge (wtm_solve)
+* 2nd Step Solve the challenge
   * Solve by using each WTM PDx Input/Pin corresponding to nbperiod until 50 steps are solved
 
 ![Logic Analyzer Whack The Mole Solved](WhacTheMole_Solve_LA.png)
