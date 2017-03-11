@@ -183,8 +183,12 @@ OK 3=PD4 solved=47
 OK 2=PD3 solved=48
 OK 6=PD7 solved=49
 OK 1=PD11 solved=50
-data flag:
-We are most gratefull for your service.
-Please take our most precious belonging.
+```
+UART Output on RHME2 after 50 moles are found:
+```
+What? You managed to get them all already?
+We are most gratefull for your service
+Please take our most precious belonging
+
 FLAG:f17537dc5cafb93dbbe79ba4d2036f52
 ```
