@@ -24,7 +24,7 @@
    * [Still Not Scary](StillNotScary.md)
    * [Escalate](Escalate.md)
  * [Other]
-   * [Twist Word WIP](Twistword.md)
+   * [Twist Word](Twistword.md)
    * [Emergency Transmitter](EmergencyTransmitter.md)
    * [Secret Sauce](SecretSauce.md)
    * [Whack The mole](WhackTheMole.md)
