@@ -6,7 +6,7 @@
 After loading the Fiesta challenge the rhme2 board(uart@19200bauds8N1) immediately output in loop "Lock"
 The aim of this challenge is to glitch the Clock or the VCC to exit this loop(skip jump instruction) and output the flag.
 
-A very easy way to do this FI it is to plug HydraRHME2 with Chipwhisperer and configure Chipwhisperer Clock Out to 16MHz then power on the rhme2 board and just diconnect/reconnect the clock and by magic the flag appear ...
+A very easy way to do this FI it is to plug HydraRHME2 with Chipwhisperer and configure Chipwhisperer Clock Out to 16MHz then power on the rhme2 board and just disconnect/reconnect the clock and by magic the flag appear ...
 
 The real FI is to configure CWCapture with following parameters:
 ```
