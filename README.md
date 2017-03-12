@@ -16,7 +16,7 @@
    * [Secure Filesystem v1.92r1](SecureFilesystemV1_92r1.md)
  * [Fault Injection]
    * [Fiesta](Fiesta.md)
-   * [Finetuning WIP](Finetuning.md)
+   * [Finetuning](Finetuning.md)
    * [Fiasco](Fiasco.md)
    * [Revenge WIP](Revenge.md)
  * [Side Channel Analysis]
