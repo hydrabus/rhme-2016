@@ -30,4 +30,5 @@ attacking the ouput of AES Sbox for each byte. A strong correlation between
 hamming weight of AES Sbox output and traces validate the key byte guess. 
 All key bytes can be retrieved as follow and the flag is the key itself.
 
-Just for fun/challenge with our clean traces we can recover the AES key with only 16 traces
+Just for fun/challenge with our clean traces we can recover the AES key with only 15 traces
+![](PieceofSCAke_traces.jpg)
