@@ -32,3 +32,6 @@ All key bytes can be retrieved as follow and the flag is the key itself.
 
 Just for fun/challenge with our clean traces we can recover the AES key with only 15 traces
 ![](PieceofSCAke_traces.jpg)
+
+[Chipwhisperer](https://github.com/newaetech/chipwhisperer) CWAnalyzer data compressed:
+[PieceofSCAke_CWAnalyzer_50traces_data.7z](PieceofSCAke_CWAnalyzer_50traces_data.7z)
