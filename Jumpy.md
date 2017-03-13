@@ -58,8 +58,8 @@ Press Ctrl C to quit
 
 Now we have a superb `trace_abcdefghi012345.txt` (of more than 30MB)
 * Open the trace and search cpi 
-* We can clearly see the checks on hose lines which shall be reversed to find the computation and the right characters for the password
-Extract of the interesting cpi
+* We can clearly see the checks on those lines which shall be reversed to find the computation and the right expected characters for the password
+Extract of the interesting cpi & reverse of the password
 ```text
 avr_run_one: 034e: cpi r24[0d], 0x0d
 avr_run_one: 0392: cpi r24[d3], 0xd3 => 0x0135[0x5F/_] + 0x0136[0x74/t]				=> Char 8	 9	
