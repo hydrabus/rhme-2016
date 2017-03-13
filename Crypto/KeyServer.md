@@ -1,7 +1,7 @@
 # rhme-2016 write-up Key Server
 
 <a name="keyserver"></a>
-## AVR keyserver
+## Key Server (Crypto - 200 pts)
 
 The purpose is to generate a RSA PKCS1_v1_5 SHA-1 signature of "admin" with one 
 of the administrator's key:
