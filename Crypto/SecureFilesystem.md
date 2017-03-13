@@ -1,7 +1,7 @@
 # rhme-2016 write-up Secure Filesystem
 
 <a name="securefs"></a>
-## AVR Secure Filesystem
+## Secure Filesystem (Crypto - 100 pts)
 
 This challenge is presented as a secure filesystem with a token system to 
 authenticate itself. Some examples are provided:
