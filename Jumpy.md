@@ -1,4 +1,7 @@
-rhme-2016 write-up Jumpy
+# rhme-2016 write-up Jumpy
+
+<a name="jumpy"></a>
+## Jumpy (Reverse - 100 pts)
 
 This challenge is a classic reverse engineering challenge and the aim is to find the password by reversing the jumpy.bin file provided
 
@@ -12,6 +15,8 @@ CFLAGS	+= -DCONFIG_SIMAVR_TRACE=1
 ```
 
 The next step was to modify simavr\examples\board_simduino to simavr\examples\board_hydra in order to add pty simulation for UART RX&TX
+
+First step was to convert Jumpy.bin to Jumpy.hex in order to be loaded by simavr which is done by using 010 Editor by loading the Jumpy.bin and doing `Export Hex...` to Intel 16-Bit Hex Code (*.hex) => Jumpy.hex
 
 Shell 1
 ```bash 
