@@ -1,7 +1,7 @@
 # rhme-2016 write-up Secure Filesystem v192.r1
 
 <a name="securefs192r1"></a>
-## AVR Secure Filesystem v192.r1
+## Secure Filesystem v192.r1 (Crypto - 150 pts)
 
 This is next version of Secure Filesystem with longer token 2x 192 bits.
 Some examples are provided:
