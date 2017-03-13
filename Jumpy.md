@@ -14,7 +14,7 @@ Just enable this line in [Makefile](https://github.com/buserror/simavr/blob/mast
 CFLAGS	+= -DCONFIG_SIMAVR_TRACE=1
 ```
 
-The next step was to modify simavr\examples\board_simduino to simavr\examples\board_hydra in order to add pty simulation for UART RX&TX
+The next step was to modify simavr\examples\board_simduino to simavr\examples\board_hydra in order to add pty simulation for UART RX&TX with also the supported of GDB (to allow step by step with GDB including also the trace ...)
 
 First step was to convert Jumpy.bin to Jumpy.hex in order to be loaded by simavr which is done by using 010 Editor by loading the Jumpy.bin and doing `Export Hex...` to Intel 16-Bit Hex Code (*.hex) => Jumpy.hex
 
