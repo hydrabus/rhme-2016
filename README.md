@@ -2,7 +2,7 @@
 
 ## Table of contents
  * [Reverse]
-   * [Jumpy WIP](Jumpy.md)
+   * [Jumpy](Jumpy.md)
    * [The Impostor](TheImpostor.md)
    * [FridgeJIT](FridgeJIT.md)
  * [Exploit]
