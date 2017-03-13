@@ -29,3 +29,5 @@
    * [Secret Sauce](Other/SecretSauce.md)
    * [Whack The mole](Other/WhackTheMole.md)
    * [Hide & Seek](Other/HideAndSeek.md)
+
+![rhme2 map](quest-map_solved.jpg)
