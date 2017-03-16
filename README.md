@@ -1,5 +1,24 @@
 # rhme-2016 write-up
 
+Introduction
+========
+
+HydraBus team for this challenge has been made up of:
++ bvernoux
++ chrisrdlg
++ FdLSifu
++ kag
+
+We joined the challenge mid-december which was late compared to other participants but we enjoyed every bits of rhme2.
+
+We are not used to CTFs but rhme2 and rhme has the particularity of proposing a wide range of challenges and we wanted to learn while having fun.
+For that, we thank rhme2 organization team for challenges quality!!!
+
+The initial objective was to be part of TOP 10. As time goes by and challenges solved, we realized we were really into it.
+Solving challenges as a team is really fun, ideas are popping up, wrong paths are investigated and then the light shines up!
+
+You will find write ups written by the team member and hope you feel all the fun we got resolving ALL challenges (bootloader what??!)
+
 ## Table of contents
  * [Reverse](Reverse)
    * [Jumpy](Reverse/Jumpy.md)
