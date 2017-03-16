@@ -1,7 +1,6 @@
-# rhme-2016 write-up
+# rhme-2016 write-up Team HydraBus
 
-Introduction
-========
+## Introduction
 
 HydraBus team for this challenge has been made up of:
 + bvernoux
@@ -9,7 +8,7 @@ HydraBus team for this challenge has been made up of:
 + FdLSifu
 + kag
 
-We joined the challenge mid-december which was late compared to other participants but we enjoyed every bits of rhme2.
+We joined the challenge mid-december which was late compared to other participants but we enjoyed every bits of [rhme2](http://rhme.riscure.com/challenges).
 
 We are not used to CTFs but rhme2 and rhme has the particularity of proposing a wide range of challenges and we wanted to learn while having fun.
 For that, we thank rhme2 organization team for challenges quality!!!
@@ -18,6 +17,8 @@ The initial objective was to be part of TOP 10. As time goes by and challenges s
 Solving challenges as a team is really fun, ideas are popping up, wrong paths are investigated and then the light shines up!
 
 You will find write ups written by the team member and hope you feel all the fun we got resolving ALL challenges (bootloader what??!)
+
+RHme2 official GitHub with all challenges(bin/src) is available here: https://github.com/Riscure/Rhme-2016
 
 ## Table of contents
  * [Reverse](Reverse)
