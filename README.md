@@ -40,6 +40,7 @@ RHme2 official GitHub with all challenges(bin/src) is available here: https://gi
    * [Fiasco](FaultInjection/Fiasco.md)
    * [Revenge](FaultInjection/Revenge.md)
  * [Side Channel Analysis](SideChannelAnalysis)
+   * [Hardware modification](SideChannelAnalysis/HardwareMod.md)
    * [Piece of Scake](SideChannelAnalysis/PieceofSCAke.md)
    * [Still Not Scary](SideChannelAnalysis/StillNotScary.md)
    * [Escalate](SideChannelAnalysis/Escalate.md)

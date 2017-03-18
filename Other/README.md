@@ -1,8 +1,8 @@
 # rhme-2016 write-up Other
 
 ## Table of contents
- * [Other]
-   * [Twist Word](Twistword.md)
+ * [Other](README.md)
+   * [Twist Word](.)
    * [Emergency Transmitter](EmergencyTransmitter.md)
    * [Secret Sauce](SecretSauce.md)
    * [Whack The mole](WhackTheMole.md)

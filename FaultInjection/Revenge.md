@@ -17,7 +17,7 @@ The twenty two first positions yield an `Authentication failed`, but the followi
 
 It was then a matter of applying again the same tactics as for *Hide & Seek* and *The Weird Machine* to obtain the flag. No hardware FI in the end :)
 
-Python script used bruteforce_mac_position_dependency.py:
+[Python script](revenge_bruteforce_mac_position_dependency.py) used:
 ```python
 import sys
 import serial
