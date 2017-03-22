@@ -2,7 +2,7 @@
 
 ## Table of contents
  * [Other](README.md)
-   * [Twist Word](.)
+   * [Twist Word](Twistword.md)
    * [Emergency Transmitter](EmergencyTransmitter.md)
    * [Secret Sauce](SecretSauce.md)
    * [Whack The mole](WhackTheMole.md)
