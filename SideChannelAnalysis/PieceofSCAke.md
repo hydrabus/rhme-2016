@@ -35,3 +35,5 @@ Just for fun/challenge with our clean traces we can recover the AES key with onl
 
 [Chipwhisperer](https://github.com/newaetech/chipwhisperer) CWAnalyzer data compressed:
 [PieceofSCAke_CWAnalyzer_50traces_data.7z](PieceofSCAke_CWAnalyzer_50traces_data.7z)
+
+`Note: Those traces have been captured using HydraRHME2 Harware + ChipWisperer-Lite Hardware`
