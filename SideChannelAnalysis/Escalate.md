@@ -13,4 +13,4 @@ synchronized.
 [Chipwhisperer](https://github.com/newaetech/chipwhisperer) CWAnalyzer data compressed:
 [Escalate_CWAnalyzer_500traces_data.7z](Escalate_CWAnalyzer_500traces_data.7z)
 
-`Note: Those traces have been captured using HydraRHME2 Harware + ChipWisperer-Lite Hardware`
+`Note: Those traces have been captured using HydraRHME2 Hardware + ChipWisperer-Lite Hardware`
