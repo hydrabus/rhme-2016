@@ -88,5 +88,5 @@ The good key has been then recovered.
 [Chipwhisperer](https://github.com/newaetech/chipwhisperer) CWAnalyzer data compressed:
 [StillNotScary_CWAnalyzer_200traces_data.7z](StillNotScary_CWAnalyzer_200traces_data.7z)
 
-`Note: Those traces have been captured using HydraRHME2 Harware + ChipWisperer-Lite Hardware`
+`Note: Those traces have been captured using HydraRHME2 Hardware + ChipWisperer-Lite Hardware`
 
